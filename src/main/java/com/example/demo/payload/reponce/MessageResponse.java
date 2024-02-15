@@ -1,2 +1,10 @@
-package com.example.demo.payload.reponce;public class MessageResponse {
+package com.example.demo.payload.reponce;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class MessageResponse {
+    private String message;
 }

@@ -1,2 +1,11 @@
-package com.example.demo.payload.reponce;public class JWTTokenSuccessResponse {
+package com.example.demo.payload.reponce;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class JWTTokenSuccessResponse {
+    private boolean success;
+    private String token;
 }
